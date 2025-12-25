@@ -1,0 +1,21 @@
+
+[flake8]
+exclude =
+    migrations,
+    __pycache__,
+    settings.py
+    manage.py
+
+
+
+
+
+
+
+# All Commands to run flake8
+
+# docker-compose run --rm app sh -c "flake8"
+# docker-compose run --rm app flake8
+# docker-compose run --rm app sh -c "django-admin startproject app ."
+#docker-compose build --no-cache
+
