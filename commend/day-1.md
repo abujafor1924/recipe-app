@@ -1,4 +1,5 @@
- 1  ls
+
+    1  ls
     2  clear
     3  ls
     4  clear
@@ -82,3 +83,96 @@
    82  docker-compose up
    83  clear
    84  history
+   85  clear
+   86  docker-compose up
+   87  clear
+   88  git add .
+   89  git commit -m "add github actions"
+   90  docker-compose --version
+   91  clear
+   92  docker-compose run --rm app sh -c "python manage.py test"
+   93  clear
+   94  docker-compose run --rm app sh -c "python manage.py test"
+   95  clear
+   96  history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
