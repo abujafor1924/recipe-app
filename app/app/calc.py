@@ -9,7 +9,7 @@ def add(one, two):
      """
      return one + two
 # end def
-def subtract(one, two):
+def sub(one, two):
      """
      Subtract two from one and return the result.
      """

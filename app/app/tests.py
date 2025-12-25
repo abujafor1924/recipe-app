@@ -9,5 +9,5 @@ class SimpleTest(SimpleTestCase):
 # end class
      def test_subtract_numbers(self):
           """Test subtracting two numbers."""
-          res = calc.subtract(10, 14)
+          res = calc.sub(10, 14)
           self.assertEqual(res, -4)
