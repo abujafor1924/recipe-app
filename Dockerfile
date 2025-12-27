@@ -30,7 +30,6 @@ RUN python -m venv /py && \
         libffi-dev \
         openssl-dev \
         cargo && \
-        build-base && \
     /py/bin/pip install -r /tmp/requirements.txt && \
     if [ "$DEV" = "true" ] ; then /py/bin/pip install -r /tmp/requirements.dev.txt ; fi && \
     rm -rf /tmp && \
