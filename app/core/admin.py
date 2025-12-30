@@ -22,14 +22,14 @@ class UserAdmin(BaseUserAdmin):
         (None, {
             'classes': ('wide',),
             'fields': (
-                'email', 
-                'name', 
+                'email',
+                'name',
                 'password1',
                 'password2',
-                'is_active', 
+                'is_active',
                 'is_staff',
-                'is_superuser'
-                ),
+                'is_superuser',
+            ),
         }),
     )
     search_fields = ['email', 'name']
