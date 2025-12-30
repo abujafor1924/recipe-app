@@ -17,7 +17,7 @@ class UserAdmin(BaseUserAdmin):
         ('Personal Info', {'fields': ('name',)}),
         ('Permissions', {'fields': ('is_active', 'is_staff', 'is_superuser')}),
     )
-    readonly_fields=['last_login']
+    readonly_fields = ['last_login']
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
